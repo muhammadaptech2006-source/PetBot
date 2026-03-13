@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products — PETBot | Premium Bottle Manufacturing</title>
+    <meta name="description" content="Browse PETBot's full product range: PET, PP & PC bottles with detailed specifications and competitive pricing.">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700;800;900&family=Montserrat:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="../CSS/style.css">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top custom-navbar">
+        <div class="container-fluid px-4">
+            <a class="navbar-brand fw-bold" href="index.html">
+                <img src="../Images/Logo.png" alt="PETBot Logo">PETBot
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto align-items-lg-center">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Gallery</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="gallery.html#pet-bottles"><i class="fas fa-bottle-water me-2"></i>PET Bottles</a></li>
+                            <li><a class="dropdown-item" href="gallery.html#pp-bottles"><i class="fas fa-prescription-bottle me-2"></i>PP Bottles</a></li>
+                            <li><a class="dropdown-item" href="gallery.html#pc-bottles"><i class="fas fa-wine-bottle me-2"></i>PC Bottles</a></li>
+                            <li><a class="dropdown-item" href="gallery.html#jars"><i class="fas fa-jar me-2"></i>Jars</a></li>
+                            <li><a class="dropdown-item" href="gallery.html#juicebottles"><i class="fas fa-glass-whiskey me-2"></i>Juice Bottles</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item"><a class="nav-link" href="about.html">About Us</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="products.html">Products</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                    <li class="nav-item"><a class="nav-link" href="FAQ_s.html">FAQ's</a></li>
+                    <li class="nav-item"><a class="nav-link" href="sitemap.html">Sitemap</a></li>
+                    <li class="nav-item"><a class="nav-link btn-cta px-4 py-2 rounded-pill ms-lg-2" href="feedback.html">Feedback</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Hero -->
+    <section class="feedback-hero">
+        <div class="feedback-hero-content">
+            <h1>Our Products</h1>
+            <p>Premium bottles with detailed specifications &amp; competitive pricing</p>
+        </div>
+    </section>
+
+    <!-- Products Section -->
+    <section class="products-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Our <span class="highlight">Product Range</span></h2>
+                <div class="title-underline mx-auto"></div>
+                <p class="section-subtitle">Premium bottles engineered for performance across every industry</p>
+            </div>
+
+            <div class="products-showcase">
+
+                <!-- Card 1 -->
+                <div class="product-card">
+                    <div class="product-img-wrapper">
+                        <img src="../Images/Images of FonteVita by PET Engineering.jpg" alt="FonteVita Premium Bottle">
+                        <div class="product-badge">Premium</div>
+                    </div>
+                    <div class="product-details">
+                        <h3>FonteVita Premium Bottle</h3>
+                        <p class="product-desc">Elegant blue design for water brands</p>
+                        <div class="specs">
+                            <span class="spec-item"><i class="fas fa-ruler"></i>750ml</span>
+                            <span class="spec-item"><i class="fas fa-weight"></i>28g</span>
+                            <span class="spec-item"><i class="fas fa-certificate"></i>Food Grade</span>
+                        </div>
+                        <div class="product-footer">
+                            <span class="price">$0.25/unit</span>
+                            <button class="btn-inquiry" onclick="openProductModal({
+                                name: 'FonteVita Premium Bottle',
+                                badge: 'Premium',
+                                img: '../Images/Images of FonteVita by PET Engineering.jpg',
+                                desc: 'Elegant blue design for water brands. Italian-inspired aesthetics with a premium feel that enhances brand value and shelf appeal.',
+                                price: '$0.25/unit',
+                                moq: '5,000 units',
+                                material: 'PET (Food Grade)',
+                                capacity: '750ml',
+                                weight: '28g',
+                                neckFinish: 'PCO 1810',
+                                color: 'Blue Gradient / Custom',
+                                leadTime: '15\u201320 days',
+                                certifications: 'ISO 9001:2015 | FDA Compliant',
+                                features: ['BPA Free & Food Safe', '100% Recyclable', 'Custom Label Area', 'Leak-Proof Neck Finish', 'Bulk Orders Welcome']
+                            })">View Details</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 2 -->
+                <div class="product-card">
+                    <div class="product-img-wrapper">
+                        <img src="../Images/AQUA LUMORA.jpg" alt="Aqua Lumora Bottle">
+                        <div class="product-badge">Featured</div>
+                    </div>
+                    <div class="product-details">
+                        <h3>Aqua Lumora Bottle</h3>
+                        <p class="product-desc">Modern geometric design with aesthetics</p>
+                        <div class="specs">
+                            <span class="spec-item"><i class="fas fa-ruler"></i>500ml</span>
+                            <span class="spec-item"><i class="fas fa-weight"></i>25g</span>
+                            <span class="spec-item"><i class="fas fa-recycle"></i>100% PET</span>
+                        </div>
+                        <div class="product-footer">
+                            <span class="price">$0.28/unit</span>
+                            <button class="btn-inquiry" onclick="openProductModal({
+                                name: 'Aqua Lumora Bottle',
+                                badge: 'Featured',
+                                img: '../Images/AQUA LUMORA.jpg',
+                                desc: 'Modern geometric design with stunning aesthetics. Perfect for premium water brands looking to stand out with a contemporary, eye-catching silhouette.',
+                                price: '$0.28/unit',
+                                moq: '5,000 units',
+                                material: '100% PET',
+                                capacity: '500ml',
+                                weight: '25g',
+                                neckFinish: 'PCO 1881',
+                                color: 'Clear / Custom Pantone',
+                                leadTime: '15\u201320 days',
+                                certifications: 'ISO 9001:2015 | FDA Compliant',
+                                features: ['Geometric Modern Design', '100% Recyclable PET', 'BPA Free', 'Custom Color Options', 'High Clarity Finish']
+                            })">View Details</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 3 -->
+                <div class="product-card">
+                    <div class="product-img-wrapper">
+                        <img src="../Images/Bottles.jpg" alt="Large Capacity Sport Bottles">
+                        <div class="product-badge">Best Seller</div>
+                    </div>
+                    <div class="product-details">
+                        <h3>Large Capacity Sport Bottles</h3>
+                        <p class="product-desc">Perfect for gym and outdoor activities</p>
+                        <div class="specs">
+                            <span class="spec-item"><i class="fas fa-ruler"></i>1L – 2L</span>
+                            <span class="spec-item"><i class="fas fa-weight"></i>45–65g</span>
+                            <span class="spec-item"><i class="fas fa-dumbbell"></i>Sports</span>
+                        </div>
+                        <div class="product-footer">
+                            <span class="price">$0.35/unit</span>
+                            <button class="btn-inquiry" onclick="openProductModal({
+                                name: 'Large Capacity Sport Bottles',
+                                badge: 'Best Seller',
+                                img: '../Images/Bottles.jpg',
+                                desc: 'Perfect for gym, outdoor, and sports activities. Durable PP construction handles daily wear, drops, and intense use while keeping beverages fresh longer.',
+                                price: '$0.35/unit',
+                                moq: '5,000 units',
+                                material: 'PP (Polypropylene)',
+                                capacity: '1L \u2013 2L',
+                                weight: '45\u201365g',
+                                neckFinish: 'Wide Mouth / Flip Cap',
+                                color: 'Multiple Colors / Custom',
+                                leadTime: '20\u201325 days',
+                                certifications: 'ISO 9001:2015 | FDA Compliant',
+                                features: ['Heavy-Duty PP Material', 'Ergonomic Grip Design', 'Leak-Proof Flip Cap', 'BPA Free', 'Dishwasher Safe']
+                            })">View Details</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 4 -->
+                <div class="product-card">
+                    <div class="product-img-wrapper">
+                        <img src="../Images/BLEND BOTTLE.jpg" alt="Fitness Blend Bottle">
+                        <div class="product-badge">New</div>
+                    </div>
+                    <div class="product-details">
+                        <h3>Fitness Blend Bottle</h3>
+                        <p class="product-desc">Professional shaker bottle with mixing mechanism</p>
+                        <div class="specs">
+                            <span class="spec-item"><i class="fas fa-ruler"></i>600ml</span>
+                            <span class="spec-item"><i class="fas fa-weight"></i>35g</span>
+                            <span class="spec-item"><i class="fas fa-running"></i>Gym Use</span>
+                        </div>
+                        <div class="product-footer">
+                            <span class="price">$0.40/unit</span>
+                            <button class="btn-inquiry" onclick="openProductModal({
+                                name: 'Fitness Blend Bottle',
+                                badge: 'New',
+                                img: '../Images/BLEND BOTTLE.jpg',
+                                desc: 'Professional shaker bottle with integrated mixing mechanism. Designed for protein shakes, pre-workouts, and supplements — built for serious athletes.',
+                                price: '$0.40/unit',
+                                moq: '3,000 units',
+                                material: 'PP (BPA Free)',
+                                capacity: '600ml',
+                                weight: '35g',
+                                neckFinish: 'Wide Mouth Screw Cap',
+                                color: 'Clear / Black / Custom',
+                                leadTime: '20\u201330 days',
+                                certifications: 'ISO 9001:2015 | FDA Compliant',
+                                features: ['Integrated Shaker Mesh', 'Leak-Proof Seal', 'BPA Free PP', 'Ergonomic Handle', 'Measurement Markings']
+                            })">View Details</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 5 -->
+                <div class="product-card">
+                    <div class="product-img-wrapper">
+                        <img src="../Images/download (1).jpg" alt="Devin Crystal Line">
+                        <div class="product-badge">Premium</div>
+                    </div>
+                    <div class="product-details">
+                        <h3>Devin Crystal Line</h3>
+                        <p class="product-desc">Ultra crystal design with diamond facets</p>
+                        <div class="specs">
+                            <span class="spec-item"><i class="fas fa-ruler"></i>500ml</span>
+                            <span class="spec-item"><i class="fas fa-gem"></i>Crystal</span>
+                            <span class="spec-item"><i class="fas fa-award"></i>Award Winner</span>
+                        </div>
+                        <div class="product-footer">
+                            <span class="price">$0.32/unit</span>
+                            <button class="btn-inquiry" onclick="openProductModal({
+                                name: 'Devin Crystal Line',
+                                badge: 'Premium',
+                                img: '../Images/download (1).jpg',
+                                desc: 'Ultra Crystal design with stunning diamond facets. Award-winning bottle design that commands premium shelf presence and elevates any beverage brand.',
+                                price: '$0.32/unit',
+                                moq: '5,000 units',
+                                material: 'PET (Crystal Grade)',
+                                capacity: '500ml',
+                                weight: '30g',
+                                neckFinish: 'PCO 1810',
+                                color: 'Crystal Clear',
+                                leadTime: '20\u201325 days',
+                                certifications: 'ISO 9001:2015 | Award Winner Design',
+                                features: ['Diamond Facet Design', 'Ultra High Clarity', 'BPA Free', 'Premium Shelf Appeal', 'Custom Embossing Available']
+                            })">View Details</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 6 -->
+                <div class="product-card">
+                    <div class="product-img-wrapper">
+                        <img src="../Images/download (5).jpg" alt="Forest Nature Bottle">
+                        <div class="product-badge">Eco</div>
+                    </div>
+                    <div class="product-details">
+                        <h3>Forest Nature Bottle</h3>
+                        <p class="product-desc">Sustainable packaging with nature design</p>
+                        <div class="specs">
+                            <span class="spec-item"><i class="fas fa-ruler"></i>750ml</span>
+                            <span class="spec-item"><i class="fas fa-leaf"></i>Eco-Friendly</span>
+                            <span class="spec-item"><i class="fas fa-recycle"></i>Recyclable</span>
+                        </div>
+                        <div class="product-footer">
+                            <span class="price">$0.30/unit</span>
+                            <button class="btn-inquiry" onclick="openProductModal({
+                                name: 'Forest Nature Bottle',
+                                badge: 'Eco',
+                                img: '../Images/download (5).jpg',
+                                desc: 'Sustainable packaging with a beautiful nature-inspired design. Made using eco-friendly processes, ideal for brands that want to communicate environmental responsibility.',
+                                price: '$0.30/unit',
+                                moq: '5,000 units',
+                                material: 'Recycled PET (rPET)',
+                                capacity: '750ml',
+                                weight: '28g',
+                                neckFinish: 'PCO 1881',
+                                color: 'Natural Green / Clear',
+                                leadTime: '15\u201325 days',
+                                certifications: 'ISO 9001:2015 | Green Certified',
+                                features: ['Made from Recycled PET', '100% Recyclable', 'Eco-Friendly Manufacturing', 'BPA Free', 'Nature-Inspired Design']
+                            })">View Details</button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="cta-banner">
+                <h3>Need Custom Bottles for Your Business?</h3>
+                <p>We offer fully customizable solutions tailored to your brand requirements</p>
+                <a href="contact.html" class="btn-cta-large">
+                    <i class="fas fa-paper-plane me-2"></i>Request Custom Quote
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="row g-4 mb-4">
+                <div class="col-lg-3 col-md-6">
+                    <h3 class="h4 fw-bold mb-3">PETBot</h3>
+                    <p class="text-white-50">Leading manufacturer of premium PET, PP & PC bottles serving industries worldwide with state-of-the-art manufacturing solutions.</p>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="h5 fw-bold mb-3">Quick Links</h4>
+                    <ul class="list-unstyled">
+                        <li class="mb-2"><a href="index.html">Home</a></li>
+                        <li class="mb-2"><a href="about.html">About Us</a></li>
+                        <li class="mb-2"><a href="products.html">Products</a></li>
+                        <li class="mb-2"><a href="gallery.html">Gallery</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="h5 fw-bold mb-3">Products</h4>
+                    <ul class="list-unstyled">
+                        <li class="mb-2"><a href="gallery.html#pet-bottles">PET Bottles</a></li>
+                        <li class="mb-2"><a href="gallery.html#pp-bottles">PP Bottles</a></li>
+                        <li class="mb-2"><a href="gallery.html#pc-bottles">PC Bottles</a></li>
+                        <li class="mb-2"><a href="gallery.html#jars">Jars</a></li>
+                        <li class="mb-2"><a href="gallery.html#juicebottles">Juice Bottles</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="h5 fw-bold mb-3">Support</h4>
+                    <ul class="list-unstyled">
+                        <li class="mb-2"><a href="contact.html">Contact Us</a></li>
+                        <li class="mb-2"><a href="FAQ_s.html">FAQ's</a></li>
+                        <li class="mb-2"><a href="feedback.html">Feedback</a></li>
+                        <li class="mb-2"><a href="sitemap.html">Sitemap</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="border-top border-white-50 pt-4 text-center">
+                <p class="text-white-50 mb-0">&copy; 2026 PETBot. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Product Detail Modal -->
+    <div class="modal fade" id="productDetailModal" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-xl pdm-dialog">
+            <div class="modal-content pdm-content">
+
+                <!-- Close button -->
+                <button type="button" class="pdm-close" data-bs-dismiss="modal" aria-label="Close">
+                    <i class="fas fa-times"></i>
+                </button>
+
+                <div class="modal-body p-0 pdm-body">
+
+                    <!-- Left: Product Image -->
+                    <div class="pdm-img-col">
+                        <img id="pdm-img" src="" alt="" class="pdm-image">
+                        <span id="pdm-badge" class="pdm-badge-label"></span>
+                    </div>
+
+                    <!-- Right: Product Info -->
+                    <div class="pdm-info-col">
+                        <h3 id="pdm-name" class="pdm-title"></h3>
+                        <p id="pdm-desc" class="pdm-desc"></p>
+
+                        <!-- Price -->
+                        <div class="pdm-price-box">
+                            <i class="fas fa-tag pdm-price-icon"></i>
+                            <div>
+                                <div class="pdm-price-label">Starting Price</div>
+                                <div id="pdm-price" class="pdm-price-value"></div>
+                                <div class="pdm-moq-line">MOQ: <span id="pdm-moq" class="pdm-moq-value"></span></div>
+                            </div>
+                        </div>
+
+                        <!-- Specifications -->
+                        <h5 class="pdm-section-heading">
+                            <i class="fas fa-sliders me-2"></i>Specifications
+                        </h5>
+                        <div class="pdm-specs-grid">
+                            <div class="pdm-spec-cell"><div class="pdm-spec-label">Material</div><div id="pdm-material" class="pdm-spec-value"></div></div>
+                            <div class="pdm-spec-cell"><div class="pdm-spec-label">Capacity</div><div id="pdm-capacity" class="pdm-spec-value"></div></div>
+                            <div class="pdm-spec-cell"><div class="pdm-spec-label">Weight</div><div id="pdm-weight" class="pdm-spec-value"></div></div>
+                            <div class="pdm-spec-cell"><div class="pdm-spec-label">Neck Finish</div><div id="pdm-neck" class="pdm-spec-value"></div></div>
+                            <div class="pdm-spec-cell"><div class="pdm-spec-label">Color</div><div id="pdm-color" class="pdm-spec-value"></div></div>
+                            <div class="pdm-spec-cell"><div class="pdm-spec-label">Lead Time</div><div id="pdm-lead" class="pdm-spec-value"></div></div>
+                        </div>
+
+                        <!-- Certifications -->
+                        <div class="pdm-cert-box">
+                            <i class="fas fa-certificate pdm-cert-icon"></i>
+                            <div>
+                                <div class="pdm-spec-label">Certifications</div>
+                                <div id="pdm-cert" class="pdm-cert-value"></div>
+                            </div>
+                        </div>
+
+                        <!-- Key Features -->
+                        <h5 class="pdm-section-heading">
+                            <i class="fas fa-star me-2"></i>Key Features
+                        </h5>
+                        <ul id="pdm-features" class="pdm-features-list"></ul>
+
+                        <!-- Actions -->
+                        <div class="pdm-actions">
+                            <a href="contact.html" class="btn-inquiry pdm-btn-quote">
+                                <i class="fas fa-paper-plane me-2"></i>Request a Quote
+                            </a>
+                            <button data-bs-dismiss="modal" class="pdm-btn-back">
+                                <i class="fas fa-arrow-left me-1"></i>Back
+                            </button>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="../JS/script.js"></script>
+    <script>
+        function openProductModal(p) {
+            document.getElementById('pdm-img').src              = p.img;
+            document.getElementById('pdm-img').alt              = p.name;
+            document.getElementById('pdm-badge').textContent    = p.badge;
+            document.getElementById('pdm-name').textContent     = p.name;
+            document.getElementById('pdm-desc').textContent     = p.desc;
+            document.getElementById('pdm-price').textContent    = p.price;
+            document.getElementById('pdm-moq').textContent      = p.moq;
+            document.getElementById('pdm-material').textContent = p.material;
+            document.getElementById('pdm-capacity').textContent = p.capacity;
+            document.getElementById('pdm-weight').textContent   = p.weight;
+            document.getElementById('pdm-neck').textContent     = p.neckFinish;
+            document.getElementById('pdm-color').textContent    = p.color;
+            document.getElementById('pdm-lead').textContent     = p.leadTime;
+            document.getElementById('pdm-cert').textContent     = p.certifications;
+
+            var list = document.getElementById('pdm-features');
+            list.innerHTML = '';
+            p.features.forEach(function(f) {
+                var li = document.createElement('li');
+                li.className = 'pdm-feature-tag';
+                li.innerHTML = '<i class="fas fa-check-circle"></i>' + f;
+                list.appendChild(li);
+            });
+
+            new bootstrap.Modal(document.getElementById('productDetailModal')).show();
+        }
+    </script>
+</body>
+</html>
